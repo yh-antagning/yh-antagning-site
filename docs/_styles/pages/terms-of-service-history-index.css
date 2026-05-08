@@ -1,0 +1,76 @@
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.terms-of-service-history-index__content {
+    max-width: 640px;
+    margin: 2em auto 0;
+}
+
+.is-mobile .terms-of-service-history-index__content {
+    font-size: 16px;
+}
+
+
+
+/* ==========================================================================
+   Back Link Container
+   ========================================================================== */
+
+.terms-of-service-history-index__back-link-container {
+    text-align: center;
+}
+
+
+
+/* ==========================================================================
+   Version Link
+   ========================================================================== */
+
+.terms-of-service-history-index__version-link {
+    display: block;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 1.2em 1.5em 1em;
+    margin: 1em 0;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color .08s;
+}
+
+.terms-of-service-history-index__version-link:last-child {
+    margin-bottom: 0;
+}
+
+.terms-of-service-history-index__version-link:hover {
+    background-color: #fbfbfb;
+}
+
+.terms-of-service-history-index__version-link:active {
+    background-color: #eee;
+}
+
+
+
+/* ==========================================================================
+   Version Date
+   ========================================================================== */
+
+.terms-of-service-history-index__version-date {
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+
+
+/* ==========================================================================
+   Version Note
+   ========================================================================== */
+
+.terms-of-service-history-index__version-note {
+    padding: .16em 0 0;
+    line-height: 1.2;
+    font-size: .96em;
+    color: rgba(0, 0, 0, .64);
+}
