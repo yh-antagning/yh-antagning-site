@@ -20,7 +20,7 @@
 
     a. Copy the content of `terms-of-service/index.html` to the new file.
 
-    b. Sdd a preamble that indicates the version date.
+    b. Add a preamble that indicates the version date.
 
     c. Add a back link to history.
 
