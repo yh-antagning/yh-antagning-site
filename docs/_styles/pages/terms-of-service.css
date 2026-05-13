@@ -80,3 +80,14 @@
 .terms-of-service td {
     border: 1px solid #bbb;
 }
+
+.terms-of-service__history-link-panel {
+    padding: 2em 0;
+    text-align: center;
+}
+
+.terms-of-service__back-link-panel {
+    padding: 1em 0 0;
+    margin-bottom: -2em;
+    text-align: center;
+}
