@@ -22,6 +22,8 @@
 
     b. Add a preamble that indicates the version date.
 
-    c. Add a back link to history.
+    c. Add a back link to history at the top.
+
+    d. Remove the link to previous version at the bottom. 
 
 4. Update the history index page `terms-of-service/history/index.html` to reflect the changes.
