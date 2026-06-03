@@ -188,11 +188,13 @@
 
     <h3>Autentisering och kryptering</h3>
 
-    <p>För att få tillgång till Tjänsten krävs inloggning med användarnamn och lösenord. Lösenorden måste följa ett regelverk för komplexitet. Användarens lösenord lagras i envägskrypterat format vilket innebär att det inte kan läsas eller dekrypteras.</p>
+    <p>Tjänsten kräver inloggning med användarnamn och ett lösenord som uppfyller systemets säkerhetskrav. Lösenorden lagras i ett format som varken kan läsas eller dekrypteras. För att förhindra obehörig åtkomst loggas användare automatiskt ut efter en tids inaktivitet.</p>
 
-    <p>För att undvika att obehörig får tillgång till Tjänsten om en dator lämnas obevakad loggar systemet automatisk ut användaren efter ett förinställt tidsintervall om användaren inte använder tjänsten.</p>
+    <p>För administratörer kan flerfaktorsautentisering aktiveras av skolan eller administratören själv.</p>
 
-    <p>All datakommunikation sker över Secure Sockets Layer (SSL) med 256-bitars kryptering.</p>
+    <p>För sökande krävs verifiering av identitet med e-legitimation för att använda vissa funktioner i Tjänsten.</p>
+
+    <p>All data i Tjänsten är krypterad, både under överföring och vid lagring.</p>
 
     <h3>Drift</h3>
 
@@ -216,7 +218,7 @@
 
     <p>Automatiserade tester genomförs kontinuerligt mot produktionsmiljön för att övervaka upptid och svarstider. Vi mäter upptid genom att var femte minut kontrollera att sidan returneras som den ska, har kontakt med databasen och att certifikat är giltiga.</p>
 
-    <p>Trafik och händelser loggas och övervakas för att identifiera och analysera felaktigheter, potentiella hot och prestandaproblem.</p>
+    <p>Trafik och händelser loggas och övervakas för att identifiera och analysera felaktigheter, potentiella hot och prestandaproblem. Loggarna sparas i fem år.</p>
 
     <h3>Organisatorisk säkerhet och informationsskydd</h3>
 
